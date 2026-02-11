@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+     font-family: "Poppins", sans-serif;
+}
+nav{
+background-color: #fff;
+padding: 20px;
+position: sticky;
+top: 0;
+}
+header{
+    background-image: url(./imgs/492409d1b25ad195077d1976979f5730fc880e57.jpg) ;
+    background-size: cover;
+    height: calc(100vh - 1);
+   
+
+}
+.canteyner{
+width: 1180px;
+margin: 0 auto;
+}
+.nav-h1{
+    margin-right:50px ;
+}
+.nav-ul{
+    display: flex;
+list-style-type: none;
+align-items: center;
+gap: 40px;
+}
+
+.nav-lis{
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+}
+.nav-list{
+    display: flex;
+  
+}
+span{
+    display: flex;
+    justify-content: center;
+    background-color: #A5C926;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.qabul{
+    display: flex;
+    gap: 30px;
+    
+}
+.cart-img{
+    width: 23px;
+    height: 23px;
+
+}
+.header{
+    border-radius: 24px;
+    width: 153px;
+    height: 48px;
+    background-color: #A5C926;
+    border: none;
+    color: #ffffff;
+}
+.header-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+   background-color: #fff;
+    width: 570px;
+    height: 308px;
+    border-radius: 16px;
+}
+.boss{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-div{
+    width: 1440px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.min-stores{
+    width: 1200px;
+    height: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+
+}
+.store-1{
+    border-radius: 16px;
+    width: 570px;
+    height: 188px;
+    background-color: #FFC12C;
+    display: flex;
+    align-items: center;
+}
+.teddy{
+    position: relative;
+    bottom: 30px;
+}
+.teddy2{
+    position: relative;
+    bottom: 30px;
+}
+.store-2{
+    border-radius: 16px;
+    width: 570px;
+    height: 188px;
+    background-color: #FB416B;
+    display: flex;
+    align-items: center;
+}
+.store-text{
+    width: 213px;
+    height: 92px;
+}
+.text-store-2{
+    width: 213px;
+    height: 92px;
+    margin-left: 100px;
+}
+.button-store-1{
+    margin-top: 20px;
+    width: 112px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+.button-store-2{
+    margin-top: 20px;
+    width: 112px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.store-shop{
+    width: 1200px;
+    height: 468px;
+    margin: 0 auto; 
+}
+.shop-name{
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.shop-button{
+    width: 77px;
+    height: 20px;
+}
+.toys-button{
+    width: 92px;
+    height: 24px;
+    background-color: #A5C926;
+    border-radius: 16px;
+    color: #fff;
+    border: none;
+
+}
+.shop-toys{
+    width: 1200px;
+    height: 358px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.toys{
+    width: 270px;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    border-radius: 16px;
+    box-shadow: 1px 1px 1px 1px #c5c1c1;
+
+}
+.toy{
+    width: 182px;
+    height: 182px;
+
+}
+.store-video{
+    margin: 0 auto;
+    width: 1440px;
+    height: 464px;
+    background-image: url(./imgs/f028f30493aba5284d7903d33dc58b53c9ce5489.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-text{
+    width: 800px;
+    height: 232px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.video-text-button{
+    width: 64px;
+    height: 64px;
+    background-color: #A5C926;
+    border: none;
+
+}
+.super-beby{
+    width: 1200px;
+    height: 631px;
+    margin: 0 auto;
+  
+    
+   
+}
+.super-text{
+    width: 600px;
+    height: 128px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.super-hero-text{
+   width: 500px;
+   height: 261px;
+}
+.heros{
+    border-radius: 16px;
+}
+.super-heros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 423px;
+
+    margin-top: 80px;
+}
+.hero-button{
+    width: 145px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #A5C926;
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+}
+.div-from{
+    width: 1440px;
+    height: 176px;
+    margin: 0 auto;
+}
+.from{
+    width: 1149px;
+    height: 173px;
+    box-shadow: 1px 1px 1px 1px #a7a7a7;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.telega-button{
+    width: 63px;
+    height: 63px;
+    background-color: #A5C926;
+    margin-right: 20px;
+}
+.telega{
+    display: flex;
+    align-items: center;
+    width: 527px;
+    height: 78px;
+   
+
+}
+
+.input-div{
+    width: 571px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.input{
+    width: 376px;
+    height: 47px;
+    border-radius: 24px;
+    
+    
+
+    
+}
+.input-button{
+    width: 121px;
+    height: 47px;
+    border-radius: 24px;
+    border: none;
+    margin-left: 20px;
+background-color: #A5C926;
+    color: #fff;
+}
+.instagram{
+    width: 1200px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+}
+.insta-div{
+    width: 331px;
+    height: 72px;
+   
+   display: flex;
+    flex-direction: column;
+}
+.p-div{
+   
+    display: flex;
+    justify-content: center;
+}
+.insta-imgs{
+    width: 1135px;
+    height: 172px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.img{
+    width: 172px;
+    height: 172px;
+
+}
+.button{
+    margin-top: 50px;
+    width: 173px;
+    height: 48px;
+    background-color: #A5C926;
+    border-radius: 24px;
+    border: none;
+    color: #fff;
+}
